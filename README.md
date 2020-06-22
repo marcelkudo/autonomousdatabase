@@ -15,16 +15,14 @@ The main topics that we will execute during this time is:
 
 <a name="#top">Menu:</a>
 
-1. [ Accessing the Oracle Public Cloud ](#1)
+1. [ Accessing the Oracle Public Cloud ](#Accessing the Oracle Public Cloud)
 2. [ Setup your environment ](#2)
-3. [ Provisioning Autonomous Transaction Processing (ATP) ](#3)
-4. [ Provisioning Autonomous Data Warehouse (ADW) ](#4)
-5. [ Create an application on APEX ](#5)
-6. [ Oracle Machine Learning ](#6)
-7. [ SQL Developer Web ](#7)
-8. [ Know your data using OML Notebooks ](#8)
+3. [ Provisioning Autonomous Data Warehouse (ADW) ](#3)
+4. [ Oracle Machine Learning ](#4)
+5. [ SQL Developer Web ](#5)
+6. [ Know your data using OML Notebooks ](#5)
 
-<a name="1"></a>
+<a name="Accessing the Oracle Public Cloud"></a>
 # 1. Accessing the Oracle Public Cloud
 On your web browser, visit the oracle [site](http://www.oracle.com "Oracle Official Site")
 
@@ -170,71 +168,6 @@ Check if files was download correctly:
 <!-- blank line -->
 
 [ Return to top ](#top)
-
-
-<a name="3"></a>
-# 3. Provisioning Autonomous Transaction Processing (ATP)
-
-In this session we will provision an Autonomous Transaction Processing Database. This database is designed for OLTP.
-
-So, to start the provision, go to menu -> Databases -> Autonomous Transaction Processing:
-
-![oracle cloud site!](images/32.png "oracle Cloud site")
-
-Check if you are on the right compartment:
-
-![oracle cloud site!](images/34.png "oracle Cloud site")
-
-Then Click in "Create Autonomous Database"
-
-![oracle cloud site!](images/34.png "oracle Cloud site")
-
-On the creation page:
-
-![oracle cloud site!](images/35.png "oracle Cloud site")
-
-Check if the follow information was filled:
-- Compartment: <check if is correct>
-- Display name: <put an name - Example: atp>
-- Database name: <put an name - Example: atp>
-- Choose the workload type: in this case Transaction Processing
-- Choose deployment type: Shared infrasctructure
-
-![oracle cloud site!](images/36.png "oracle Cloud site")
-
-Continue choosing this options:
-- No Always Free option
-- Choose database version: 18c
-- OCPU Count: 1
-- Storage (TB): 1
-- No auto scaling
-- Choose the admin Password that you want
-
-![oracle cloud site!](images/37.png "oracle Cloud site")
-
-Options that you need to choose:
-- Allow Secure access from everywhere
-- Choose licensing type: Byol
-
-And then click in "Create autonomous database":
-
-![oracle cloud site!](images/38.png "oracle Cloud site")
-
-During creation process time, you will see the amber color of word "ATP":
-
-![oracle cloud site!](images/39.png "oracle Cloud site")
-
-When the process finish, the work ATP will change to green:
-
-![oracle cloud site!](images/40.png "oracle Cloud site")
-
-
-<!-- blank line -->
-----
-<!-- blank line -->
-
-[ Return to top ](#top)
-
 
 <a name="4"></a>
 # 4. Provisioning Autonomous Data Warehouse (ADW)
