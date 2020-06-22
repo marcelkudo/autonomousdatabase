@@ -16,11 +16,11 @@ The main topics that we will execute during this time is:
 <a name="#top">Menu:</a>
 
 1. [ Accessing the Oracle Public Cloud ](#Accessing_OCI)
-2. [ Setup your environment ](#2)
-3. [ Provisioning Autonomous Data Warehouse (ADW) ](#3)
-4. [ Oracle Machine Learning ](#4)
-5. [ SQL Developer Web ](#5)
-6. [ Know your data using OML Notebooks ](#5)
+2. [ Setup your environment ](#Setup_environment)
+3. [ Provisioning Autonomous Data Warehouse (ADW) ](#Prov_ADW)
+4. [ Oracle Machine Learning ](#OML)
+5. [ SQL Developer Web ](#SQLdev)
+6. [ Know your data using OML Notebooks ](#OML_data)
 
 <a name="Accessing_OCI"></a>
 # 1. Accessing the Oracle Public Cloud
@@ -86,7 +86,7 @@ And you have your profile configuration on the top right of main page
 [ Return to top ](#top)
 
 
-<a name="2"></a>
+<a name="Setup_environment"></a>
 # 2. Setup your environment
 
 ## Create a compartment
@@ -169,7 +169,7 @@ Check if files was download correctly:
 
 [ Return to top ](#top)
 
-<a name="4"></a>
+<a name="Prov_ADW"></a>
 # 4. Provisioning Autonomous Data Warehouse (ADW)
 
 In this session we will provision an Autonomous Data Warehouse Database. This database is designed for DW.
@@ -235,16 +235,7 @@ When the process finish, the work ADW will change to green:
 [ Return to top ](#top)
 
 
-<a name="5"></a>
-# 5. Create an application on APEX
-
-<!-- blank line -->
-----
-<!-- blank line -->
-
-[ Return to top ](#top)
-
-<a name="7"></a>
+<a name="OML"></a>
 # 7. Oracle Machine Learning
 
 The Oracle Machine Learning is an Apache Zeppelin notebook that can help you to know your data.
@@ -299,7 +290,7 @@ PS: remember the user create and password. You will use this on step 9.
 
 [ Return to top ](#top)
 
-<a name="8"></a>
+<a name="SQLdev"></a>
 # 8. SQL Developer Web
 
 On SQL Developer Web, we will load data from files load into object storage. This activity needs an auth token.
@@ -505,7 +496,7 @@ grant select on vendas to appdw;
 
 [ Return to top ](#top)
 
-<a name="9"></a>
+<a name="OML_data"></a>
 # 9. Know your data using OML Notebooks
 
 If you need to see your data in another visualization using notebooks, you can use Oracle Machine Learning.
