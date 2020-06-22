@@ -170,7 +170,7 @@ Check if files was download correctly:
 [ Return to top ](#top)
 
 <a name="Prov_ADW"></a>
-# 4. Provisioning Autonomous Data Warehouse (ADW)
+# 3. Provisioning Autonomous Data Warehouse (ADW)
 
 In this session we will provision an Autonomous Data Warehouse Database. This database is designed for DW.
 
@@ -236,7 +236,7 @@ When the process finish, the work ADW will change to green:
 
 
 <a name="OML"></a>
-# 7. Oracle Machine Learning
+# 4. Oracle Machine Learning
 
 The Oracle Machine Learning is an Apache Zeppelin notebook that can help you to know your data.
 
@@ -291,7 +291,7 @@ PS: remember the user create and password. You will use this on step 9.
 [ Return to top ](#top)
 
 <a name="SQLdev"></a>
-# 8. SQL Developer Web
+# 5. SQL Developer Web
 
 On SQL Developer Web, we will load data from files load into object storage. This activity needs an auth token.
 
@@ -497,7 +497,7 @@ grant select on vendas to appdw;
 [ Return to top ](#top)
 
 <a name="OML_data"></a>
-# 9. Know your data using OML Notebooks
+# 6. Know your data using OML Notebooks
 
 If you need to see your data in another visualization using notebooks, you can use Oracle Machine Learning.
 
@@ -560,50 +560,6 @@ group by p.produto;
 ![oracle cloud site!](images/86.png "oracle Cloud site")
 
 ![oracle cloud site!](images/87.png "oracle Cloud site")
-
-
-<!-- blank line -->
-----
-<!-- blank line -->
-
-[ Return to top ](#top)
-
-
-<a name="10"></a>
-# 10. Creating a dashboard on OAC
-
-Before create a dashboard you need to connect your Database instance to the OAC. To connect your instance in OAC, go to OAC Page:
-
-![oracle cloud site!](images/93.png "oracle Cloud site")
-
-PS. to connect into the
-
-And then click on "Open URL":
-
-![oracle cloud site!](images/94.png "oracle Cloud site")
-
-So, on the OAC page, click in create:
-
-![oracle cloud site!](images/95.png "oracle Cloud site")
-
-and then, click in "Connection":
-
-![oracle cloud site!](images/96.png "oracle Cloud site")
-
-Select the property connection for ADW (autonomous data warehouse):
-
-![oracle cloud site!](images/97.png "oracle Cloud site")
-
-Input your connection information:
-
-![oracle cloud site!](images/98.png "oracle Cloud site")
-
-and then click in save:
-
-![oracle cloud site!](images/99.png "oracle Cloud site")
-
-So, now you have sucessfully connect your ADW with your OAC! :-)
-
 
 
 <!-- blank line -->
