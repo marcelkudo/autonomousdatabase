@@ -19,12 +19,10 @@ The main topics that we will execute during this time is:
 2. [ Setup your environment ](#2)
 3. [ Provisioning Autonomous Transaction Processing (ATP) ](#3)
 4. [ Provisioning Autonomous Data Warehouse (ADW) ](#4)
-5. [ Provisioning Oracle Analytics Cloud (OAC) ](#5)
-6. [ Create an application on APEX ](#6)
-7. [ Oracle Machine Learning ](#7)
-8. [ SQL Developer Web ](#8)
-9. [ Know your data using OML Notebooks ](#9)
-10. [ Creating a dashboard on OAC ](#10)
+5. [ Create an application on APEX ](#5)
+6. [ Oracle Machine Learning ](#6)
+7. [ SQL Developer Web ](#7)
+8. [ Know your data using OML Notebooks ](#8)
 
 <a name="1"></a>
 # 1. Accessing the Oracle Public Cloud
@@ -305,47 +303,7 @@ When the process finish, the work ADW will change to green:
 
 
 <a name="5"></a>
-# 5. Provisioning Oracle Analytics Cloud (OAC)
-
-In this section, we will provision the Oracle Analytics Cloud, aka. OAC.
-
-First, you need to provision the OAC. So on menu, click on "Solutions and Platform" -> Analytics -> Analytics Cloud:
-
-![oracle cloud site!](images/88.png "oracle Cloud site")
-
-Make sure that you have select the right compartment (on the left), and then click on "
-
-![oracle cloud site!](images/89.png "oracle Cloud site")
-
-Input the follow information on the analytics:
-- INSTANCE NAME: oac
-- DESCRIPTION: My OAC instance
-- FEATURE SET: Enterprise Analytics
-- CAPACITY: OCPU - 2
-- LICENSE TYPE: BYOL (MY ORGANIZATION ALREADY OWNS ORACLE MIDDLEWARE SOFTWARE LICENSES. BRING MY EXISTING MIDDLEWARE SOFTWARE LICENSE TO THE ANALYTICS CLOUD)
-
-Then click in "Create".
-
-![oracle cloud site!](images/90.png "oracle Cloud site")
-
-After click in create, the OAC will be provisioned:
-
-![oracle cloud site!](images/91.png "oracle Cloud site")
-
-You can go ahead on next lessons, because the creation will take few minutes.
-
-![oracle cloud site!](images/92.png "oracle Cloud site")
-
-
-<!-- blank line -->
-----
-<!-- blank line -->
-
-[ Return to top ](#top)
-
-
-<a name="6"></a>
-# 6. Create an application on APEX
+# 5. Create an application on APEX
 
 <!-- blank line -->
 ----
