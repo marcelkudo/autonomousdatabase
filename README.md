@@ -15,14 +15,14 @@ The main topics that we will execute during this time is:
 
 <a name="#top">Menu:</a>
 
-1. [ Accessing the Oracle Public Cloud ](#Accessing the Oracle Public Cloud)
+1. [ Accessing the Oracle Public Cloud ](#Accessing_OCI)
 2. [ Setup your environment ](#2)
 3. [ Provisioning Autonomous Data Warehouse (ADW) ](#3)
 4. [ Oracle Machine Learning ](#4)
 5. [ SQL Developer Web ](#5)
 6. [ Know your data using OML Notebooks ](#5)
 
-<a name="Accessing the Oracle Public Cloud"></a>
+<a name="Accessing_OCI"></a>
 # 1. Accessing the Oracle Public Cloud
 On your web browser, visit the oracle [site](http://www.oracle.com "Oracle Official Site")
 
